@@ -1,0 +1,35 @@
+Input Items
+Profit =11 Weight =1
+Profit =21 Weight =11
+Profit =31 Weight =21
+Profit =33 Weight =23
+Profit =43 Weight =33
+Profit =53 Weight =43
+Profit =65 Weight =55
+Profit =55 Weight =45
+
+Filtered and Optimally Sorted Inputs
+Profit =0 Weight =0
+Profit =11 Weight =1
+Profit =21 Weight =11
+Profit =31 Weight =21
+Profit =33 Weight =23
+Profit =43 Weight =33
+Profit =53 Weight =43
+Profit =55 Weight =45
+Profit =65 Weight =55
+
+Items in solution:
+Profit =11 Weight =1
+Profit =21 Weight =11
+Profit =31 Weight =21
+Profit =43 Weight =33
+Profit =53 Weight =43
+
+Profit: 159
+Weight: 109
+Time taken 30 ns
+
+Max profit from DP: 159
+Time taken 29 ns
+(0,0)&(11,1)&(21,11)&(32,12)&(42,22)&(44,24)&(52,32)&(63,33)&(65,35)&(75,45)&(85,55)&(96,56)&(106,66)&(108,68)&(116,76)&(118,78)&(120,80)&(128,88)&(139,89)&(149,99)&(151,101)&(159,109)&
