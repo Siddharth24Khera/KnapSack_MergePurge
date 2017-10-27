@@ -38,7 +38,8 @@ x_Array= [i[0] for i in point_list_array]
 y_Array= [i[1] for i in point_list_array]
 
 # plt.plot(x_Array, y_Array, 'ro')
-plt.scatter(x_Array,y_Array,s = 10)
+# plt.scatter(x_Array,y_Array,s = 10)
+plt.step(x_Array,y_Array)
 plt.ylabel('Optimal Profit')
 plt.xlabel('Weight')
 
