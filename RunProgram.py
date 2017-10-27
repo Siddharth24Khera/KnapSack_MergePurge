@@ -42,7 +42,7 @@ plt.scatter(x_Array,y_Array,s = 10)
 plt.ylabel('Optimal Profit')
 plt.xlabel('Weight')
 
-print("\nGenerating graphs\n")
+print("\nGenerating grapha\n")
 
 print("Execution Complete. Graph displayed")
 
