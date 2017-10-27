@@ -23,14 +23,14 @@ public class KnapSack {
 		}
 		long endTime = System.currentTimeMillis();
 		outputSolution();
-		System.out.println("Time taken " + (endTime-startTime) + " ns");
+		System.out.println("Time taken " + (endTime-startTime) + " us");
 
 		startTime = System.currentTimeMillis();
 		for(int i=0;i<999;i++)
 			knapSackDP();
 		System.out.println("\nMax profit from DP: " + knapSackDP());
 		endTime = System.currentTimeMillis();
-		System.out.println("Time taken " + (endTime-startTime) + " ns");
+		System.out.println("Time taken " + (endTime-startTime) + " us");
 
 		Set s = sets[inputItems.length - 1];
 		ArrayList<Item> setEntries = s.setData;
